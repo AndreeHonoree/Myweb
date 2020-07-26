@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+<body>
+    <div class="overlay"></div>
+    <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="container_wrap">
+        <div class="header">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="#about">About-Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#contacts">Contact-Me</a>
+            </div>
+        </div>
+        <center>
+            <div class="banner">
+                <h1>Welcome to Honoree's portfolio Website</h1>
+
+                <button class="mySkills" id="myskills">Skills</button>
+            </div>
+        </center>
+    </div>
+
+    <section id="about">
+        <div class="heading">
+            <center><h1>ABOUT ME</h1></center>
+        </div>
+        <div class="about_me">
+            <div id="profile">
+                <img src="./images/bg2.jpg" alt="" class="my_pic">
+            </div>
+            <div id="about_me_bio">
+                <p>
+                    <span>My names are IRADUNDA Andree Honoree. I am Rwandan,I was born on 1 st May, 1995 
+                        in Northern province. Knowledge, hardworking, practice, innovation, creativity and 
+                        experiences are among things that lead to success in life.</span><br><br>
+                    <span>I did my high school at Fawe Girls'School where I studied Physics, Chemistry and Math.
+                        Doing sciences in high school strengthened me to keep up the sprit of continuing in science
+                        course at University  as many people have misunderstandings that sciences are for boys 
+                        most especially in career of technology.
+                        After completing my high school, I went to University where I did Computer Science
+                        at University of Rwanda, College of Science and Technology at Nyarugenge campus.
+                        Doing computer science at university exposed me to various fields of it include 
+                        programming where I want to be focused as my career.
+                    </span><br><br>
+                    <span>Apart from internshipps I did, I got a temporal job in Sotracam ltd in charge of IT Officer within 6months.
+                        All these experienced me in necessary tips that lead to success such as team work, paying attention to details
+                        when talking to client for the right product delivery, usage of time to avoid delay in delivering the product.
+                        Another thing is to keep talking to client about new changes that might occur to make sure you are doing the
+                        the right product for the customer.
+                    </span><br><br>
+                    <span>I attended many training conferences about technology such as: Research and innovation
+                        within 6 months, Quality Assurance Software Testing and project management within 2 months. 
+                    </span>
+                </p>
+            </div>
+        </div>
+        <button><a href="#"><i class="fa fa-home"></i>HOME</a></button>
+    </section>
+
+    
+    <section id="skills">
+        <div class="heading">
+            <center><h1>SKILLS</h1></center>
+        </div>
+        <div class="skills-content">
+            <div class="card"><img src="./images//HTML.png" alt="html">
+                <h4>HTML</h4>
+            </div>
+            <div class="card"><img src="./images/CSS.png" alt="">
+                <h4>CSS</h4>
+            </div>
+            <div class="card"><img src="./images/JS.png" alt="">
+                <h4>JS</h4>
+            </div>
+            <div class="card"><img src="./images/nodejs-601628d09d.png" alt="">
+                <h4>NODEJS</h4>
+            </div>
+            <div class="card"><img src="./images/PYTHON.png" alt="">
+                <h4>PYTHON</h4>
+            </div>
+            <div class="card"><img src="./images/download.png" alt="">
+                <h4>C#</h4>
+            </div>
+        </div>
+        <button><a href="#"><i class="fa fa-home"></i>HOME</a></button>
+    </section>
+
+    <section id="contacts">
+        <div class="heading">
+            <center><h1>CONTACT ME</h1></center>
+        </div>
+        <div class="contact-me">
+            <div class="overlays"></div>
+            <form action="index.html" id="contact">
+                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <center><input type="submit" value="Contact me!"></center>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div id="footer_inforamtion">
+            <h4>Address</h4>
+                <p>Email: iradandree@gmail.com</p>
+                <p>Phone: +250 786 227 601</p>
+                <p>Address: KK 359 St</p>
+        </div>
+        
+        <button><a href="#"><i class="fa fa-home"></i>HOME</a></button>
+        <div class="down_footer_indicator">
+            <p>copyright &copy; IRADUKUNDA Andree Honoree 2020</p>
+        </div>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.navbar').slideToggle()
+            });
+
+            $(window).resize(function () {
+                if ($(window).width() > 768) {
+                    $('.navbar').show();
+                }
+                else {
+                    $('.navbar').hide();
+                }
+            });
+            $('#mySkills').click(function(){
+                $('.skills').hide();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
