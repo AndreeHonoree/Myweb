@@ -113,13 +113,7 @@ div#profile {
 img.my_pic {
     width: 80%;
 }
-section#about button {
-    float: right;
-    margin-right: -120px;
-    text-decoration: none;
-    background: white;
-    margin-top: -10px;
-}
+
 
 section#skills {
     background: white;
@@ -151,13 +145,6 @@ section#skills {
     color: rgb(70, 66, 66);
     font-family: 'Roboto', sans-serif;
     font-weight: 1000;
-}
-section#skills button {
-    float: right;
-    margin-right: 60px;
-    text-decoration: none;
-    background: white;
-    margin-top: -50px;
 }
 
 section#contacts{
@@ -260,7 +247,11 @@ section#footer {
     position: absolute;
     width: 100%;
     color: white;
-    /* padding: 0 20%; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-content {
     display: flex;
     flex-wrap: wrap;
 }
@@ -268,19 +259,23 @@ div#footer_inforamtion {
     width: 300px;
     margin: auto;
 }
-.down_footer_indicator {
+div#footer_inforamtion img {
+    height: 50px;
+    width: 50px;
+    margin-left: 250px;
+}
+.down_footer_indicator  {
     background: #2b2b2b;
     width: 100%;
     text-align: center;
-}
-section#footer button {
-    float: right;
-    margin-right: 80px;
-    text-decoration: none;
-    background: white;
-    margin-top: 100px;
-    height: 30px;
+    color: white;
+    
 }
 
+.footer-content img {
+       margin-right: 10px;
+       margin-top: 60px;
+       width: 50px;
+   }
 
   
