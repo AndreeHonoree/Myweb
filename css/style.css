@@ -81,17 +81,6 @@ body {
     margin-top: -60px;
 }
 
-button.mySkills {
-    height: 50px;
-    width: 200px;
-    color: #d8a465;
-    background: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 5%;
-    cursor: pointer;
-    font-weight: 600;
-}
-
 h1 {
     color: #d8a465;
     text-align: center;
@@ -126,7 +115,7 @@ img.my_pic {
 }
 section#about button {
     float: right;
-    margin-right: -50px;
+    margin-right: -120px;
     text-decoration: none;
     background: white;
     margin-top: -10px;
@@ -165,7 +154,7 @@ section#skills {
 }
 section#skills button {
     float: right;
-    margin-right: 200px;
+    margin-right: 60px;
     text-decoration: none;
     background: white;
     margin-top: -50px;
@@ -219,6 +208,8 @@ input[type="submit"] {
     border: 0px;
     border-radius: 2%;
     cursor: pointer;
+    font-size: large;
+    font-weight: 600;
 }
 .overlays {
     background: #1e4786b0;
@@ -284,7 +275,7 @@ div#footer_inforamtion {
 }
 section#footer button {
     float: right;
-    margin-right: 200px;
+    margin-right: 80px;
     text-decoration: none;
     background: white;
     margin-top: 100px;
