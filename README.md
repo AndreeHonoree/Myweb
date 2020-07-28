@@ -1,2 +1,2 @@
 # Myweb
-My Portfolio Webpage
+This is a portfolio Website that tells about Andree Honoreee IRADUKUNDA. It is a single page Web whis has four main menus: Home, About-Me, Skills and Contact-Me. I choose to use a single page to avoid many requests to the server which might lead to dalay of the response. It is built in HTML and CSS and it is responsive. It is user friendly as well as you can reduce your window and still use it properly.
